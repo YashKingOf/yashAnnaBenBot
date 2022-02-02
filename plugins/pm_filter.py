@@ -438,11 +438,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('🖨️ 𝐣𝐬𝐨𝐧 ', callback_data='json'),
             InlineKeyboardButton('📎 𝐩𝐢𝐧 ', callback_data='pin')
             ],[
-            InlineKeyboardButton('🦠 𝐜𝐨𝐫𝐨𝐧𝐚 ', callback_data='corona'),
-            InlineKeyboardButton('🖨️ 𝐬𝐭𝐢𝐜𝐤𝐞𝐫𝐢𝐝 ', callback_data='stickerid')
-            ],[
             InlineKeyboardButton('« Back', callback_data='start')
-        ]]
+        ])
+
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
             text=script.HELP_TXT.format(query.from_user.mention),
