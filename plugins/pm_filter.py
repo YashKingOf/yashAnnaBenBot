@@ -401,7 +401,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ', url='http://t.me/AKAutoFilterBot?startgroup=true')
             ],[
             InlineKeyboardButton('sᴇᴀʀᴄʜ', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('Request', url='https://t.me/ALLU_KISHORE_MOVIE_REQUEST')
+            InlineKeyboardButton('ʀᴇqᴜᴇꜱᴛ', url='https://t.me/ALLU_KISHORE_MOVIE_REQUEST')
             ],[
             InlineKeyboardButton('ʜᴇʟᴘ', callback_data='help'),
             InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about')
@@ -415,21 +415,21 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "help":
         buttons = [
-            InlineKeyboardButton('😎 𝐚𝐝𝐦𝐢𝐧 ', callback_data='admin')
+            InlineKeyboardButton('ᴀᴅᴍɪɴ ', callback_data='admin')
             ],[
-            InlineKeyboardButton('🗳️ 𝐜𝐨𝐧𝐧𝐞𝐜𝐭 ', callback_data='coct'),
-            InlineKeyboardButton('👻 𝐟𝐢𝐥𝐭𝐞𝐫𝐬 ', callback_data='auto_manual'),
+            InlineKeyboardButton('ᴄᴏɴɴᴇᴄᴛ ', callback_data='coct'),
+            InlineKeyboardButton('ꜰɪʟᴛᴇʀꜱ ', callback_data='auto_manual'),
             ],[
-            InlineKeyboardButton('📄 𝐢𝐧𝐟𝐨 ', callback_data='info'),
-            InlineKeyboardButton('🔍 𝐬𝐞𝐚𝐫𝐜𝐡 ', callback_data='search'),
+            InlineKeyboardButton('ɪɴꜰᴏ ', callback_data='info'),
+            InlineKeyboardButton('ꜱᴇᴀʀᴄʜ ', callback_data='search'),
             ],[
-            InlineKeyboardButton('📸 𝐭𝐠𝐫𝐚𝐩𝐡 ', callback_data='tgraph'),
-            InlineKeyboardButton('🤡 𝐟𝐮𝐧', callback_data='fun'),
+            InlineKeyboardButton('ᴛɢʀᴀᴩʜ ', callback_data='tgraph'),
+            InlineKeyboardButton('ꜰᴜɴ', callback_data='fun'),
             ],[
-            InlineKeyboardButton('🎶 𝐬𝐨𝐧𝐠 ', callback_data='song'),
-            InlineKeyboardButton('🖨️ 𝐣𝐬𝐨𝐧 ', callback_data='json'),
+            InlineKeyboardButton('ꜱᴏɴɢ ', callback_data='song'),
+            InlineKeyboardButton('ᴊꜱᴏɴ ', callback_data='json'),
             ],[
-            InlineKeyboardButton('« Back', callback_data='start')
+            InlineKeyboardButton('« ʙᴀᴄᴋ', callback_data='start')
         ]
 
         reply_markup = InlineKeyboardMarkup(buttons)
