@@ -441,15 +441,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "about":
         buttons= [[
-            InlineKeyboardButton('status', callback_data='stats'),
-            InlineKeyboardButton('source', callback_data='source')
+            InlineKeyboardButton('ꜱᴛᴀᴛᴜꜱ', callback_data='stats'),
+            InlineKeyboardButton('ꜱᴏᴜʀᴄᴇ', callback_data='source')
             ],[
-            InlineKeyboardButton('search movie', switch_inline_query_current_chat='')
-            ],[
-            InlineKeyboardButton('help & commands', callback_data='help')
-            ],[
-            InlineKeyboardButton('« Back', callback_data='start'),
-            InlineKeyboardButton('Close ✗', callback_data='close_data')
+            InlineKeyboardButton('« ʙᴀᴄᴋ', callback_data='start'),
+            InlineKeyboardButton('ᴄʟᴏꜱᴇ ✗', callback_data='close_data')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -581,8 +577,8 @@ parse_mode='html'
 InlineKeyboardButton('manual', callback_data='manualfilter')
 
 ],[
-            InlineKeyboardButton('« Back', callback_data='help'),
-            InlineKeyboardButton('Close ✗', callback_data='close_data')
+            InlineKeyboardButton('« ʙᴀᴄᴋ', callback_data='help'),
+            InlineKeyboardButton('ᴄʟᴏꜱᴇ ✗', callback_data='close_data')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -603,7 +599,7 @@ InlineKeyboardButton('manual', callback_data='manualfilter')
         )         
     elif query.data == "coct":
         buttons = [[
-            InlineKeyboardButton('« Back', callback_data='help')
+            InlineKeyboardButton('« ʙᴀᴄᴋ', callback_data='help')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -614,8 +610,8 @@ InlineKeyboardButton('manual', callback_data='manualfilter')
         )
     elif query.data == "paste":
         buttons = [[
-            InlineKeyboardButton('« Back', callback_data='help'),
-            InlineKeyboardButton('Close ✗', callback_data='close_data')
+            InlineKeyboardButton('« ʙᴀᴄᴋ', callback_data='help'),
+            InlineKeyboardButton('ᴄʟᴏꜱᴇ ✗', callback_data='close_data')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -626,7 +622,7 @@ InlineKeyboardButton('manual', callback_data='manualfilter')
         )
     elif query.data == "tgraph":
         buttons = [[
-            InlineKeyboardButton('« Back', callback_data='help')
+            InlineKeyboardButton('« ʙᴀᴄᴋ', callback_data='help')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -637,7 +633,7 @@ InlineKeyboardButton('manual', callback_data='manualfilter')
         )
     elif query.data == "info":
         buttons = [[
-            InlineKeyboardButton('« Back', callback_data='help')
+            InlineKeyboardButton('« ʙᴀᴄᴋ', callback_data='help')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -648,7 +644,7 @@ InlineKeyboardButton('manual', callback_data='manualfilter')
         )
     elif query.data == "search":
         buttons = [[
-            InlineKeyboardButton('« Back', callback_data='help')
+            InlineKeyboardButton('« ʙᴀᴄᴋ', callback_data='help')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -659,7 +655,7 @@ InlineKeyboardButton('manual', callback_data='manualfilter')
         )
     elif query.data == "gtrans":
         buttons = [[
-            InlineKeyboardButton('« Back', callback_data='help'),
+            InlineKeyboardButton('« ʙᴀᴄᴋ', callback_data='help'),
             InlineKeyboardButton('lang codes', url='https://cloud.google.com/translate/docs/languages')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -671,7 +667,7 @@ InlineKeyboardButton('manual', callback_data='manualfilter')
         )
     elif query.data == "admin":
         buttons = [[
-            InlineKeyboardButton('« Back', callback_data='help')
+            InlineKeyboardButton('« ʙᴀᴄᴋ', callback_data='help')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -682,7 +678,7 @@ InlineKeyboardButton('manual', callback_data='manualfilter')
         )
     elif query.data == "zombies":
         buttons = [[
-            InlineKeyboardButton('« Back', callback_data='help')
+            InlineKeyboardButton('« ʙᴀᴄᴋ', callback_data='help')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -693,7 +689,7 @@ InlineKeyboardButton('manual', callback_data='manualfilter')
         )
     elif query.data == "purge":
         buttons = [[
-            InlineKeyboardButton('« Back', callback_data='help')
+            InlineKeyboardButton('« ʙᴀᴄᴋ', callback_data='help')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -704,7 +700,7 @@ InlineKeyboardButton('manual', callback_data='manualfilter')
         )
     elif query.data == "restric":
         buttons = [[
-            InlineKeyboardButton('« Back', callback_data='help')
+            InlineKeyboardButton('« ʙᴀᴄᴋ', callback_data='help')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -715,8 +711,8 @@ InlineKeyboardButton('manual', callback_data='manualfilter')
         )
     elif query.data == "stats":
         buttons = [[
-            InlineKeyboardButton('« Back', callback_data='about'),
-            InlineKeyboardButton('Refresh ⧖', callback_data='rfrsh')
+            InlineKeyboardButton('« ʙᴀᴄᴋ', callback_data='about'),
+            InlineKeyboardButton('ʀᴇꜰʀᴇꜱʜ ⧖', callback_data='rfrsh')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         total = await Media.count_documents()
@@ -737,8 +733,8 @@ InlineKeyboardButton('manual', callback_data='manualfilter')
     elif query.data == "rfrsh":
         await query.answer("Fetching MongoDb DataBase")
         buttons = [[
-            InlineKeyboardButton('« Back', callback_data='about'),
-            InlineKeyboardButton('Refresh ⧖', callback_data='rfrsh')
+            InlineKeyboardButton('« ʙᴀᴄᴋ', callback_data='about'),
+            InlineKeyboardButton('ʀᴇꜰʀᴇꜱʜ ⧖', callback_data='rfrsh')
         ]]
     
 
