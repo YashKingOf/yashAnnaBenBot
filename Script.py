@@ -22,7 +22,7 @@ class script(object):
 - ՏOᑌᖇᑕᗴ ᑕOᗪᗴ - <a href="https://t.me/+SuKq6KMnVa4yZTJl"> [ F O O L ] </a>
 
 𝗠𝗔𝗦𝗧𝗘𝗥:
-<a href="https://t.me/ALLU_KISHORE_OFFICIAL"> 🄰🄻🄻🅄🄺🄸🅂🄷🄾🅁🄴 </a>"""
+<a href="https://t.me/ALLU_KISHORE_OFFICIAL"> [ 𐌀𐌺 ] </a>"""
     WHOIS_TXT ="""<b>WHOIS MODULE</b>
 Note:- Give a user details
 
