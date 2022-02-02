@@ -421,9 +421,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('👻 𝐟𝐢𝐥𝐭𝐞𝐫𝐬 ', callback_data='auto_manual'),
             ],[
             InlineKeyboardButton('📄 𝐢𝐧𝐟𝐨 ', callback_data='info'),
-            ],[
-            ],[
             InlineKeyboardButton('🔍 𝐬𝐞𝐚𝐫𝐜𝐡 ', callback_data='search'),
+            ],[
             InlineKeyboardButton('📸 𝐭𝐠𝐫𝐚𝐩𝐡 ', callback_data='tgraph')
             ],[
             InlineKeyboardButton('🤡 𝐟𝐮𝐧 ', callback_data='fun')
