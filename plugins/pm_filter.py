@@ -516,8 +516,9 @@ parse_mode='html'
             reply_markup=reply_markup,
             parse_mode='html'
         )
-    elif query.data == "ᴍᴀɴᴜᴀʟ":
+    elif query.data == "manualfilter":
         buttons = [[
+            InlineKeyboardButton('ᴍᴀɴᴜᴀʟ', callback_data='help')
             InlineKeyboardButton('« ʙᴀᴄᴋ', callback_data='auto_manual'),
             InlineKeyboardButton('ʙᴜᴛᴛᴏɴꜱ »', callback_data='button')
         ]]
