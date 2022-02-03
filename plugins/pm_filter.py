@@ -518,12 +518,12 @@ parse_mode='html'
         )
     elif query.data == "manualfilter":
         buttons = [[
-            InlineKeyboardButton('ᴍᴀɴᴜᴀʟ', callback_data='help')
+
             InlineKeyboardButton('« ʙᴀᴄᴋ', callback_data='auto_manual'),
             InlineKeyboardButton('ʙᴜᴛᴛᴏɴꜱ »', callback_data='button')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
-        await query.message.edit_text(
+        await query.message.edit_text()
             text=script.MANUALFILTER_TXT,
             disable_web_page_preview=True,
             reply_markup=reply_markup,
@@ -551,7 +551,7 @@ parse_mode='html'
         )
     elif query.data == "button":
         buttons = [[
-            InlineKeyboardButton('« ʙᴀᴄᴋ', callback_data='manualfilter')
+            InlineKeyboardButton('« ʙᴀᴄᴋ', callback_data='ᴍᴀɴᴜᴀʟ')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
