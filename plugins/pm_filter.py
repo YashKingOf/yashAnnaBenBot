@@ -401,7 +401,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ', url='http://t.me/AKAutoFilterBot?startgroup=true')
             ],[
             InlineKeyboardButton('sᴇᴀʀᴄʜ', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('ʀᴇqᴜᴇꜱᴛ', url='https://t.me/ALLU_KISHORE_MOVIE_REQUEST')
+            InlineKeyboardButton('ʀᴇqᴜᴇꜱᴛ',url='https://t.me/ALLU_KISHORE_MOVIE_REQUEST')
+            ],[
+            InlineKeyboardButton('yᴏᴜᴛᴜʙᴇ ', url='https://youtube.com/channel/UCjKZr0-f0SelNT-4XBO13RQ')
+            InlineKeyboardButton('ɪɴꜱᴛᴀɢʀᴀᴍ ', url='https://instagram.com/allukishore.official?utm_medium=copy_link')
             ],[
             InlineKeyboardButton('ʜᴇʟᴘ', callback_data='help'),
             InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about')
