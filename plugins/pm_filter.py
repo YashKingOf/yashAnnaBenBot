@@ -550,7 +550,7 @@ parse_mode='html'
         )
     elif query.data == "button":
         buttons = [[
-            InlineKeyboardButton('« ʙᴀᴄᴋ', callback_data='manualfilter')
+            InlineKeyboardButton('« ʙᴀᴄᴋ', callback_data='ᴍᴀɴᴜᴀʟ')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
