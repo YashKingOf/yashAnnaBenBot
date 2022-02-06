@@ -402,7 +402,6 @@ async def cb_handler(client: Client, query: CallbackQuery):
             ],[
             InlineKeyboardButton('sᴇᴀʀᴄʜ', switch_inline_query_current_chat=''),
             InlineKeyboardButton('ʀᴇqᴜᴇꜱᴛ',url='https://t.me/ALLU_KISHORE_MOVIE_REQUEST'),
-            InlineKeyboardButton('ʀᴇqᴜᴇꜱᴛ >> ₂',url='https://t.me/+5PTmhXVDCHNiMDk9')
             ],[
             InlineKeyboardButton('yᴏᴜᴛᴜʙᴇ ', url='https://youtube.com/channel/UCjKZr0-f0SelNT-4XBO13RQ'),
             InlineKeyboardButton('ɪɴꜱᴛᴀɢʀᴀᴍ ', url='https://instagram.com/allukishore.official?utm_medium=copy_link'),
