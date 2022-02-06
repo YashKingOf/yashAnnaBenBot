@@ -419,21 +419,21 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "help":
         buttons = [
-            InlineKeyboardButton('ᴀᴅᴍɪɴ ', callback_data='admin')
+            InlineKeyboardButton('ᴀᴅᴍɪɴ ', callback_data='admin'),
             InlineKeyboardButton('ᴄᴏɴɴᴇᴄᴛ ', callback_data='coct'),
-            InlineKeyboardButton('ꜰɪʟᴛᴇʀꜱ ', callback_data='auto_manual'),
+            InlineKeyboardButton('ꜰɪʟᴛᴇʀꜱ ', callback_data='auto_manual')
             ],[
             InlineKeyboardButton('ɪɴꜰᴏ ', callback_data='info'),
             InlineKeyboardButton('ꜱᴇᴀʀᴄʜ ', callback_data='search'),
-            InlineKeyboardButton('ᴛɢʀᴀᴩʜ ', callback_data='tgraph'),
+            InlineKeyboardButton('ᴛɢʀᴀᴩʜ ', callback_data='tgraph')
             ],[
             InlineKeyboardButton('ꜰᴜɴ', callback_data='fun'),
             InlineKeyboardButton('ꜱᴏɴɢ ', callback_data='song'),
-            InlineKeyboardButton('ᴊꜱᴏɴ ', callback_data='json'),
+            InlineKeyboardButton('ᴊꜱᴏɴ ', callback_data='json')
             ],[   
             InlineKeyboardButton('yᴏᴜᴛᴜʙᴇ ', url='https://youtube.com/channel/UCjKZr0-f0SelNT-4XBO13RQ'),
             InlineKeyboardButton('ɪɴꜱᴛᴀɢʀᴀᴍ ', url='https://instagram.com/allukishore.official?utm_medium=copy_link'),
-            InlineKeyboardButton('ᴍᴏᴊ ', url='https://mojapp.in/@allukishoreofficial?referrer=SwaOtro-wNI6Tp'),
+            InlineKeyboardButton('ᴍᴏᴊ ', url='https://mojapp.in/@allukishoreofficial?referrer=SwaOtro-wNI6Tp')
             ],[
             InlineKeyboardButton('« ʙᴀᴄᴋ', callback_data='start')
         ]
