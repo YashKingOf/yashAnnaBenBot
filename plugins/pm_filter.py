@@ -399,9 +399,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "start":
         buttons = [[
             InlineKeyboardButton('ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ', url='http://t.me/AKAutoFilterBot?startgroup=true')
+            InlineKeyboardButton('sᴇᴀʀᴄʜ', switch_inline_query_current_chat='')
             ],[
-            InlineKeyboardButton('sᴇᴀʀᴄʜ', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('ʀᴇqᴜᴇꜱᴛ',url='https://t.me/ALLU_KISHORE_MOVIE_REQUEST')
+            InlineKeyboardButton('ʀᴇqᴜᴇꜱᴛ',url='https://t.me/ALLU_KISHORE_MOVIE_REQUEST'),
+            InlineKeyboardButton('ᴛʜᴜɴᴅᴇʀ ✘ ᴍᴏᴠɪᴇꜱ',url='https://t.me/+nfsmDRsL3j5lZjU1')
             ],[
             InlineKeyboardButton('ʜᴇʟᴘ', callback_data='help'),
             InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about')
