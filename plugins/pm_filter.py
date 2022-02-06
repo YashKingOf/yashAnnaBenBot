@@ -409,9 +409,23 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('ᴍᴏᴊ ', url='https://mojapp.in/@allukishoreofficial?referrer=SwaOtro-wNI6Tp'),
             ],[
             InlineKeyboardButton('ʜᴇʟᴘ', callback_data='help'),
+            InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='WEBSITE'),
             InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text=script.WEBSITE_TXT.format(query.from_user.mention, temp.U_NAME, temp.B_NAME),
+            disable_web_page_preview=True,
+            reply_markup=reply_markup,
+            parse_mode='html'
+        )
+    elif query.data == "ᴡᴇʙꜱɪᴛᴇ":
+        buttons = [[
+             InlineKeyboardButton('yᴏᴜᴛᴜʙᴇ ', url='https://youtube.com/channel/UCjKZr0-f0SelNT-4XBO13RQ'),
+            InlineKeyboardButton('ɪɴꜱᴛᴀɢʀᴀᴍ ', url='https://instagram.com/allukishore.official?utm_medium=copy_link'),
+            InlineKeyboardButton('ᴍᴏᴊ ', url='https://mojapp.in/@allukishoreofficial?referrer=SwaOtro-wNI6Tp'),
+       ]]  
+       reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
             text=script.START_TXT.format(query.from_user.mention, temp.U_NAME, temp.B_NAME),
             disable_web_page_preview=True,
