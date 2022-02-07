@@ -577,7 +577,7 @@ parse_mode='html'
         buttons = [[
             InlineKeyboardButton('ᴀᴜᴛᴏ', callback_data='autofilter'),
 
-InlineKeyboardButton('manual', callback_data='manualfilter')
+InlineKeyboardButton('ᴍᴀɴᴜᴀʟ', callback_data='manualfilter')
 
 ],[
             InlineKeyboardButton('« ʙᴀᴄᴋ', callback_data='help'),
