@@ -38,7 +38,6 @@ async def start(client, message):
     if len(message.command) != 2:
         buttons = [[
             InlineKeyboardButton('ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ', url='http://t.me/AKAutoFilterBot?startgroup=true')
-            ],[
             InlineKeyboardButton('sᴇᴀʀᴄʜ', switch_inline_query_current_chat='')
             ],[
             InlineKeyboardButton('ᴜᴩᴅᴀᴛᴇꜱ',url='https://t.me/+nfsmDRsL3j5lZjU1'),
