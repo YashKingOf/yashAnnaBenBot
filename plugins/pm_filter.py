@@ -432,6 +432,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('ɪɴꜱᴛᴀɢʀᴀᴍ ', url='https://instagram.com/allukishore.official?utm_medium=copy_link'),
             InlineKeyboardButton('ᴍᴏᴊ ', url='https://mojapp.in/@allukishoreofficial?referrer=SwaOtro-wNI6Tp')
             ],[
+            InlineKeyboardButton('ᴛᴡɪᴛᴛᴇʀ ', url='https://twitter.com/allu_kishore13?t=y2sT0w-vqNzAPnCtNmGi2Q&s=09'),
             InlineKeyboardButton('« ʙᴀᴄᴋ', callback_data='start')
         ]
 
