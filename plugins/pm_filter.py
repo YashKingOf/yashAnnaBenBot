@@ -433,6 +433,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('ᴍᴏᴊ ', url='https://mojapp.in/@allukishoreofficial?referrer=SwaOtro-wNI6Tp')
             ],[
             InlineKeyboardButton('ᴛᴡɪᴛᴛᴇʀ ', url='https://twitter.com/allu_kishore13?t=y2sT0w-vqNzAPnCtNmGi2Q&s=09'),
+            InlineKeyboardButton('ꜰᴀᴄᴇʙᴏᴏᴋ ', url='https://www.facebook.com/profile.php?id=100078341344418')
+            ],[
             InlineKeyboardButton('« ʙᴀᴄᴋ', callback_data='start')
         ]
 
