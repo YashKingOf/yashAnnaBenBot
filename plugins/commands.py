@@ -96,7 +96,7 @@ async def start(client, message):
         )
         return
     file_id = message.command[1]
-files_ = await get_file_details(file_id)
+    files_ = await get_file_details(file_id)
     if not files_:
        return await message.reply('No such file exist.')
     files = files_[0]
@@ -208,9 +208,9 @@ async def delete_all_index(bot, message):
     )
 
 
+
 @Client.on_callback_query(filters.regex(r'^autofilter_delete'))
 async def delete_all_index_confirm(bot, message):
     await Media.collection.drop()
     await message.answer()
     await message.message.edit('Succesfully Deleted All The Indexed Files.')
-
