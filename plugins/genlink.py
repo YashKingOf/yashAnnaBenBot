@@ -54,7 +54,6 @@ async def gen_link_batch(bot, message):
     if f_chat_id.isnumeric():
         f_chat_id  = int(("-100" + f_chat_id))
 
-
 match = regex.match(last)
     if not match:
         return await message.reply('Invalid link')
