@@ -98,6 +98,7 @@ async def start(client, message):
     file_id = message.command[1]
 files_ = await get_file_details(file_id)
     if not files_:
+       return await message.reply('No such file exist.')
     files = files_[0]
     title = files.file_name
     size=get_size(files.file_size)
