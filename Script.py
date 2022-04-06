@@ -10,7 +10,7 @@ class script(object):
     HELP_TXT = """𝙷𝙴𝚈 {}
 𝘏𝘦𝘳𝘦 𝘐𝘴 𝘛𝘩𝘦 𝘏𝘦𝘭𝘱 𝘍𝘰𝘳 𝘔𝘺 𝘊𝘰𝘮𝘮𝘢𝘯𝘥𝘴."""
     ABOUT_TXT = """
-✯ 𝙼𝚈 𝙽𝙰𝙼𝙴: <a href="https://t.me/AKAutoFilterBot"> 𐌀𐌺𐌀ս𑀱꤀𐍆꤯꤈𑀱ꤕ꤅𐌱꤀𑀱 </a>
+✯ 𝙼𝚈 𝙽𝙰𝙼𝙴: <a href="https://t.me/AKAutoFilterBot"> SᴘɪᴅᴇʏX Fɪʟᴛᴇʀ </a>
 ✯ 𝙲𝚁𝙴𝙰𝚃𝙾𝚁: <a href="https://t.me/SpideyX_Army"> SᴘɪᴅᴇʏX Aʀᴍʏ </a>
 ✯ 𝙻𝙸𝙱𝚁𝙰𝚁𝚈: 𝙿𝚈𝚁𝙾𝙶𝚁𝙰𝙼
 ✯ 𝙻𝙰𝙽𝙶𝚄𝙰𝙶𝙴: 𝙿𝚈𝚃𝙷𝙾𝙽 𝟹
