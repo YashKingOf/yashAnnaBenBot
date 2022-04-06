@@ -5,13 +5,13 @@ class script(object):
 
 ⚠️𝙼𝚘𝚛𝚎 𝙷𝚎𝚕𝚙 𝙲𝚑𝚎𝚌𝚔 𝙷𝚎𝚕𝚙 𝙱𝚞𝚝𝚝𝚘𝚗 𝙱𝚎𝚕𝚘𝚠
 
-©️𝙼ᴀɪɴᴛᴀɪɴᴇ𝙳 𝙱ʏ  <a href="https://t.me/ALLUKISHORE_OFFICIAL"> 🄰🄻🄻🅄🄺🄸🅂🄷🄾🅁🄴 by ak </a>
+©️𝙼ᴀɪɴᴛᴀɪɴᴇ𝙳 𝙱ʏ  <a href="https://t.me/SpideyX_Army"> SᴘɪᴅᴇʏX Aʀᴍʏ</a>
 """
     HELP_TXT = """𝙷𝙴𝚈 {}
 𝘏𝘦𝘳𝘦 𝘐𝘴 𝘛𝘩𝘦 𝘏𝘦𝘭𝘱 𝘍𝘰𝘳 𝘔𝘺 𝘊𝘰𝘮𝘮𝘢𝘯𝘥𝘴."""
     ABOUT_TXT = """
 ✯ 𝙼𝚈 𝙽𝙰𝙼𝙴: <a href="https://t.me/AKAutoFilterBot"> 𐌀𐌺𐌀ս𑀱꤀𐍆꤯꤈𑀱ꤕ꤅𐌱꤀𑀱 </a>
-✯ 𝙲𝚁𝙴𝙰𝚃𝙾𝚁: <a href="https://t.me/ALLUKISHORE_OFFICIAL"> 🄰🄻🄻🅄🄺🄸🅂🄷🄾🅁🄴 </a>
+✯ 𝙲𝚁𝙴𝙰𝚃𝙾𝚁: <a href="https://t.me/SpideyX_Army"> SᴘɪᴅᴇʏX Aʀᴍʏ </a>
 ✯ 𝙻𝙸𝙱𝚁𝙰𝚁𝚈: 𝙿𝚈𝚁𝙾𝙶𝚁𝙰𝙼
 ✯ 𝙻𝙰𝙽𝙶𝚄𝙰𝙶𝙴: 𝙿𝚈𝚃𝙷𝙾𝙽 𝟹
 ✯ 𝙳𝙰𝚃𝙰 𝙱𝙰𝚂𝙴: 𝙼𝙾𝙽𝙶𝙾 𝙳𝙱
@@ -22,7 +22,8 @@ class script(object):
 - ՏOᑌᖇᑕᗴ ᑕOᗪᗴ - <a href="https://t.me/+SuKq6KMnVa4yZTJl"> [ F O O L ] </a>
 
 𝗠𝗔𝗦𝗧𝗘𝗥:
-<a href="tg://openmessage?user_id=2123780393"> [ 𐌀𐌺 ] </a>"""
+<a href="tg://openmessage?user_id=2123780393"> [ 𐌀𐌺 ] & </a> 
+<a href="tg://openmessage?user_id=5095191119"> Tʜɪs Pᴇʀsᴏɴ """
     WHOIS_TXT ="""<b>WHOIS MODULE</b>
 Note:- Give a user details
 
