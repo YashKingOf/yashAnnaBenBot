@@ -88,10 +88,10 @@ async def answer(bot, query):
                            switch_pm_parameter="okay")
 
 
-def get_reply_markup(query):
+def get_reply_markup(AKAutoFilterbot):
     buttons = [
         [
-               InlineKeyboardButton('Search 🎥 again', switch_inline_query_current_chat=query)
+               InlineKeyboardButton('Search 🎥 again', switch_inline_query_current_chat=AKAutoFilterBot)
          ]
         ]
     return InlineKeyboardMarkup(buttons)
