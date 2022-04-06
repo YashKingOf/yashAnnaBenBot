@@ -22,8 +22,7 @@ class script(object):
 - ՏOᑌᖇᑕᗴ ᑕOᗪᗴ - <a href="https://t.me/+SuKq6KMnVa4yZTJl"> [ F O O L ] </a>
 
 𝗠𝗔𝗦𝗧𝗘𝗥:
-<a href="tg://openmessage?user_id=2123780393">[ 𐌀𐌺 ]</a> &
-<a href="tg://openmessage?user_id=5095191119">Tʜɪs Pᴇʀsᴏɴ</a>"""
+<a href="tg://openmessage?user_id=2123780393">[ 𐌀𐌺 ]</a> & <a href="tg://openmessage?user_id=5095191119">Tʜɪs Pᴇʀsᴏɴ</a>"""
     WHOIS_TXT ="""<b>WHOIS MODULE</b>
 Note:- Give a user details
 
