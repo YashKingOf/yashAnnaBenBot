@@ -402,7 +402,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             ],[
             InlineKeyboardButton('sᴇᴀʀᴄʜ', switch_inline_query_current_chat=''),
             InlineKeyboardButton('Mᴏᴠɪᴇs',url='https://t.me/+OWmhfzgAZLA1MmQ1'),
-            InlineKeyboardButton('ʀᴇqᴜᴇꜱᴛ',url='https://t.me/+5PTmhXVDCHNiMDk9')
+            InlineKeyboardButton('ʀᴇqᴜᴇꜱᴛ',url='https://t.me/+U2UIyBr--RBmODhl')
             ],[
             InlineKeyboardButton('ʜᴇʟᴘ', callback_data='help'),
             InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about')
