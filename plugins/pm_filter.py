@@ -398,11 +398,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer()
     elif query.data == "start":
         buttons = [[
-            InlineKeyboardButton('ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ', url='http://t.me/AKAutoFilterBot?startgroup=true') 
+            InlineKeyboardButton('ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ', url='http://t.me/All_in_one_Movies_Serachers_bot?startgroup=true') 
             ],[
             InlineKeyboardButton('sᴇᴀʀᴄʜ', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('Mᴏᴠɪᴇs',url='https://t.me/+OWmhfzgAZLA1MmQ1'),
-            InlineKeyboardButton('ʀᴇqᴜᴇꜱᴛ',url='https://t.me/+U2UIyBr--RBmODhl')
+            InlineKeyboardButton('Mᴏᴠɪᴇs',url='https://t.me/Spider_Movies'),
+            InlineKeyboardButton('ʀᴇqᴜᴇꜱᴛ',url='https://t.me/Spider_x_Moviee')
             ],[
             InlineKeyboardButton('ʜᴇʟᴘ', callback_data='help'),
             InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about')
@@ -427,13 +427,6 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('ꜰᴜɴ', callback_data='fun'),
             InlineKeyboardButton('ꜱᴏɴɢ ', callback_data='song'),
             InlineKeyboardButton('ᴊꜱᴏɴ ', callback_data='json')
-            ],[   
-            InlineKeyboardButton('yᴏᴜᴛᴜʙᴇ ', url='https://youtube.com/channel/UCjKZr0-f0SelNT-4XBO13RQ'),
-            InlineKeyboardButton('ɪɴꜱᴛᴀɢʀᴀᴍ ', url='https://instagram.com/allukishore.official?utm_medium=copy_link'),
-            InlineKeyboardButton('ᴍᴏᴊ ', url='https://mojapp.in/@allukishoreofficial?referrer=SwaOtro-wNI6Tp')
-            ],[
-            InlineKeyboardButton('ᴛᴡɪᴛᴛᴇʀ ', url='https://twitter.com/allu_kishore13?t=y2sT0w-vqNzAPnCtNmGi2Q&s=09'),
-            InlineKeyboardButton('ꜰᴀᴄᴇʙᴏᴏᴋ ', url='https://www.facebook.com/profile.php?id=100078341344418')
             ],[
             InlineKeyboardButton('« ʙᴀᴄᴋ', callback_data='start')
         ]
